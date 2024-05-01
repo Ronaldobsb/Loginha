@@ -15,18 +15,10 @@ padding: 10px 0px;
 background-color: rgb(96, 163, 137);
 display: flex;
 justify-content: center;
-
 gap: 20px;
 
 }
 
-footer{
-    padding: 10px 0px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(96, 163, 137);
-    color: white;
-}
 
 
 main{
@@ -37,12 +29,12 @@ main{
 
 main img{
      width: 100%;
+     padding: 10px 0px;
      display: flex;
      justify-content: center;
 }
 .testo{
     width:50%;
-
     position: absolute;
     top: 15%;
     left: 26%;
@@ -52,17 +44,35 @@ main img{
 }
 
 #menus{
-    border: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: transparent;
-    padding: 6px;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
     cursor: pointer;
-    display: flex;
-    justify-content: space-around;
+    gap: 20px;
+   
 }
 .promocoes{
-    background-image: url(styles/imagens/4056e207-cf86-469d-be3b-a9c1a2e609de.jpg);
+   width: 100%;
+   
+   
+    
+}
+
+.lancamentos{
+    width: 100%;
+ }
+   
+
+.lancamentos img{
+    width: 40%;
+}
+
+footer{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(96, 163, 137);
+    color: white;
 }
 
 
