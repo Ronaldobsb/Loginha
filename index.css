@@ -9,13 +9,21 @@ header{
   
   
 }
+
+.icone{
+    display: flex;
+}
+a{
+    color: white;
+ }
+   
  
 nav{
 padding: 10px 0px;
 background-color: rgb(96, 163, 137);
 display: flex;
-justify-content: center;
-gap: 20px;
+justify-content: space-around;
+gap: 30px;
 
 }
 
@@ -45,12 +53,15 @@ main img{
 
 #menus{
     width: 100%;
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+   
     cursor: pointer;
     gap: 20px;
+
+     }
    
-}
+
 .promocoes{
    width: 100%;
    

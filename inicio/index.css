@@ -4,8 +4,16 @@
 
 }
 
+head{
+    background-color: antiquewhite;
+}
+
 header{
     width: 100%;
+}
+a{
+    color: white;
+
 }
 
 nav{
@@ -13,7 +21,7 @@ nav{
     background-color: rgb(96, 163, 137);
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
      
 }
 
