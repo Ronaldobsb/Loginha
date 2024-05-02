@@ -1,7 +1,6 @@
 *{
     margin: 0%;
     padding: 0%;
-
 }
 
 head{
@@ -16,14 +15,16 @@ a{
 
 }
 
-nav{
+li{
     padding: 10px 0px;
-    background-color: rgb(96, 163, 137);
+    background-color: rgb(111, 148, 148);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 30px;
      
 }
+
+
 
 .login{
     display: flex;
@@ -90,6 +91,6 @@ footer{
     padding: 10px 0px;
     display: flex;
     justify-content: center;
-    background-color: rgb(96, 163, 137);
+    background-color: rgb(111, 148, 148);
     color: white;
 }

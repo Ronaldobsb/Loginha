@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    
+    
+  }
+  
+.icone{
+      display: flex;
+  }
+  a{
+      color: white;
+   }
+     
+   
+li{
+  padding: 10px 0px;
+  background-color: rgb(96, 155, 163);
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  
+}
+
+body{
+    width: 100%;
+    background-color: rgb(218, 230, 190);
+}
+
+
+
+
+main{
+    width: 100%;
+}
+
+.Catalogo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #363535;
+}
+
+.perfume {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.perfume img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.perfume-details {
+    flex: 1;
+
+}
+
+.perfume-details h2 {
+    color: #333;
+}
+
+.perfume-details p {
+    color: #666;
+}
+
+footer{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(96, 155, 163);
+    color: white;
+}  
